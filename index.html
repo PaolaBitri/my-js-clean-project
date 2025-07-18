@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <h1>Photo Fetcher</h1>
+<div class = "toggle">
+    <label class="switch">
+        <input type="checkbox" id="toggleSwitch"> <!--krijon nje checkbox-->
+        <span class="slider round"></span>
+      </label>  
+      <span class="toggle-text">Make photos grayscale</span>
+    </div>
+    <div class="container">
+    <button id="fetchButton" onclick= fetchPhotos()>Fetch New Photos</button>
+     <div id="photos">
+        </div>
+    <button id="More" onclick= fetchMorePhotos()>More Photos</button>
+</div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
